@@ -297,9 +297,9 @@ def check_db_entries():
     spark.stop()
 
 if __name__ == "__main__":
-    # create_db_and_tables()
-    # ct = extract()
-    # load(ct)
-    check_db_entries()
+    create_db_and_tables()
+    ct = extract()
+    load(ct)
+    #check_db_entries()
     
     
