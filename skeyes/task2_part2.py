@@ -53,17 +53,5 @@ def unix_increase(start_time):
 
 if __name__ == "__main__":
     read()
-    # api = OpenSkyApi()
-    # arrivals_2019 = api.get_arrivals_by_airport("EBBR", 1561939200, unix_increase(1561939200))
-    # departures_2019 = api.get_departures_by_airport("EBBR", 1561939200, unix_increase(1561939200))
-
-
-    # arrivals_2021= api.get_arrivals_by_airport("EBBR", 1625097600, unix_increase(1625097600))
-    # departures_2021 = api.get_departures_by_airport("EBBR", 1625097600, unix_increase(1625097600))
-
-    # print(arrivals_2019)
-    # print(departures_2019)
-
-    # print(arrivals_2021)
-    # print(departures_2021)
+   
 
